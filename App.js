@@ -6,7 +6,7 @@ import { Navbar } from './src/Navbar';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Navbar />
+      <Navbar title="Todo App"/>
       <StatusBar style="auto" />
     </View>
   );
